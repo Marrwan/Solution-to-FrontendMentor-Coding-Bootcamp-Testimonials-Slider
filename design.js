@@ -1,0 +1,1 @@
+document.getElementById("end").innerHTML = navigator.platform;
