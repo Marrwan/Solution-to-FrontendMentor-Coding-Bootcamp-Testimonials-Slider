@@ -4,6 +4,7 @@
  padding: 0;
 }
 
+
 span{
     color: gray;
     font-weight: normal;
@@ -17,11 +18,13 @@ span{
   padding: 0 80px 0 80px;
     position: relative;
 }
+
  .image{
     position: fixed;
     top: 11%; 
     right: 11%;
 }
+
 #end{
     position: fixed;
     top:80%;
@@ -33,26 +36,45 @@ span{
 }
 #quote{
     position: fixed;
-    left: 15%;
+    left: 19%;
     top: 25%;
 }
 #text{
     position: fixed;
     top: 30%;
-    width:50%;
-    left: 6%;
+    width:40%;
+    left: 15%;
+    text-align:left;
     color: hsl(240, 38%, 20%);
 }
 #end{
     position: fixed;
     top:65%;
-    left:6%;
+    left:15%;
     font-size: 20px;
     font-weight: 800;
 }
-
-
-
+@media (max-width: 1322px){
+    #end{
+        margin-top: 10%;
+    }
+    }
+    @media (max-width: 947px){
+ #end{
+     margin-top: 15%;
+ }
+  }
+  @media (max-width: 801px){
+      #end{
+          margin-top: 20%;
+      }
+      }
+  @media (max-width: 751px){
+      #end{
+         
+          margin-top: 30%;
+      }
+      }
 #nav{
     position: fixed;
     top: 89%;
