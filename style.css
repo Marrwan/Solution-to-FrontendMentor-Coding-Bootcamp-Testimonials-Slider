@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    text-align: center;
+}
+.container{
+    max-height: 100vh;
+}
+.profile{
+    padding: 50px 0;
+}
+.picture{
+    background: url(images/pattern-bg.svg) no-repeat;
+    background-size: contain;
+    height: 50vh;
+    background-position-x: 100px;
+
+}
+.picture img{
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 40vh;
+ 
+}
+.icon{
+    margin: 0 auto;
+    position: relative;
+    margin-top: -40px;
+    background-color: white;
+    width: max-content;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow:  5px 0 10px 0 rgb(0, 0, 0, 0.3);
+}
+.icon img{
+    margin: 4px 15px;
+    cursor:pointer;
+}
+
+.bio{
+    background: url(images/pattern-quotes.svg) no-repeat center;
+   background-position-y: 70px;
+   background-position-x: 50px;
+   
+}
+.quote{
+    margin-top: 5px;
+}
+span{
+    display: block;
+}
+.name{
+    font-weight: 800;
+}
+.prof{
+    color: gray;
+}
+
+
+
+@media(min-width:900px){
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+    .picture{
+        margin-right: -100px;
+    }
+    .picture img{
+        height:initial;
+    }
+    .picon{
+        order: 1;
+    }
+    .icon{
+        position: relative;
+        bottom: -280px;
+    }
+}
+.attribution{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
