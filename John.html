@@ -3,23 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design</title>
-    <link rel="stylesheet" href="design.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Abdulbasit's Solution</title>
+    <link rel="stylesheet" href="style.css">
     <script src="design.js"></script>
 </head>
 <body>
-<div class="container">
-    <div class="first">
-        <img id="pattern" src="images/pattern-bg.svg" alt="">
-        <div class="image"><img src="images/image-john.jpg" alt=""></div>
-  <div id="nav">
-        <a href="Tanya.html"><img src="images/icon-prev.svg" alt=""></a>
-  <a href="Tanya.html"><img src="images/icon-next.svg" alt=""></a>
-</div>
+ <div id="container">
+     <div id="john" class="">
+         <div class="profile">
+            <div class="picon"> 
+             <div class="picture">
+                 <img src="images/image-john.jpg" alt="John's picture">
+             </div>
+             <div class="icon">
+                  <a href="tanya.html" ><img  class="prev" src="images/icon-prev.svg" alt=""  onclick="tanya()"> </a>
+                  <a href="tanya.html" > <img class="next" src="images/icon-next.svg" alt="" onclick="tanya()"></a>
+             </div>
+         </div>
+             <div class="bio">
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <div class="quote">
+                    <p>
+                        " If you want to lay the best foundation possible I'd recommend taking this course. 
+                        The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer "
+                    </p>
+                 </div>
+                 <div class="title">
+                    <span class="name">
+                        John Tarkpor
+                    </span>
+                   <span class="prof">
+                       Junior Front-end Developer
+                    </span>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+
+     <div class="attribution">
+         Challenge by <a href="https://www.frontloops.io" target="_blank">Frontloop</a>. 
+         Coded by <a href="https://github.com/Marrwan" target="_blank">Abdulbasit</a>.
+        </div>
     </div>
-    <img id="quote" src="images/pattern-quotes.svg" alt="">
-    <p id="text">" If you want to lay the best foundation possible I'd recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer "</p>
- <p id="end">John Tarkpor <span>Junior Front-end Developer</span></p>
-</div>
 </body>
 </html>
